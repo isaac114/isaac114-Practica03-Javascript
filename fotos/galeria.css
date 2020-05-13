@@ -1,0 +1,79 @@
+body {
+    background-color: #2f2f2f;
+}
+
+
+#principal { 
+	position: absolute; 
+	left: 450px; 
+	top: 100px; 
+	width: 600px; 
+    height: 300px;
+    right: 0px;
+    background-color:wheat;
+     overflow: hidden;  
+}
+
+#principal img { 
+    width: 600px; 
+    height: 300px;
+    border: 3px solid #1e1e1e;
+}
+img {
+    border: 3px solid #1e1e1e
+}
+/*foto saliente y foto entrante*/
+#fotoSale { 
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+}
+
+#fotoEntra { 
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+}
+
+/*Elementos al pie de foto*/
+#piefoto { 
+	position: absolute; 
+    left: 450px; 
+    right: 600px; 
+	top: 400px; 
+	width: 600px;  
+	height: 40px;	 
+    border: 1px solid #1e1e1e 
+}
+
+#regresa { 
+    position: absolute;
+
+    top: 0px; 
+    left: 0px; 
+    float: left;
+    width: 20%;
+}
+#avanza { 
+	position: absolute; 
+	top: 0px; 
+    right: 0px; 
+    width: 20%;
+
+    float: left;
+}
+
+
+
+#dinamico {
+    position: absolute;
+    top:0px;
+    left: 110px;
+    width: 62%;
+    float: left;
+}
+button {
+    height: 40px;
+    width: 100px;
+    border: 1px solid #1e1e1e
+}

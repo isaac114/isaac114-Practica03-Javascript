@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="uft-8">
+        <title>Galeria de Fotos</title>
+        <link rel="stylesheet" type="text/css" href="galeria.css" media="all" /> 
+        <script type="text/javascript" src="galeria.js"></script>
+    </head>
+<body >
+    <section>
+        <div id="principal">
+            <div id="fotoEntra">
+            </div>
+            <div id="fotoSale">
+            </div>
+        </div>
+         
+        <div id="piefoto">
+             <button id="regresa" onclick="moverFoto('retroceder')" > Anterior</button>
+             <button id="dinamico" onclick="calcularFotosAleatorias()">Iniciar</button>
+             <button id="avanza" onclick="moverFoto('avanzar')" > Siguiente</button>
+        </div>
+    </section>
+</body>
+</html>
